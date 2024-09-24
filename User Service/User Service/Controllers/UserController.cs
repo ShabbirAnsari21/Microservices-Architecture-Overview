@@ -5,7 +5,7 @@ using User_Service.Infra;
 
 namespace User_Service.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UserController : ControllerBase
     {
